@@ -20,10 +20,10 @@ ul {
 */
 
 .calculator {
-  border: 1px solid #000;
-  width: 50%;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10rem;
 }
 
 .calculator-result {
@@ -31,6 +31,7 @@ ul {
   text-align: end;
   padding: 1rem 0.2rem;
   color: #fff;
+  font-size: 22px;
 }
 
 .calculator-buttons {
@@ -39,7 +40,7 @@ ul {
 }
 
 button {
-  padding: 1rem 2rem;
+  padding: 1rem 1.6rem;
   border: 1px solid rgba(195, 195, 195, 0.4);
 }
 
