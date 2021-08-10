@@ -1,7 +1,5 @@
-/* eslint-disable max-classes-per-file, no-unused-vars, quotes, comma-dangle */
-
-import React from "react";
-import "./Calculator.css";
+import React from 'react';
+import './Calculator.css';
 
 class Calculator extends React.Component {
   constructor(props) {
