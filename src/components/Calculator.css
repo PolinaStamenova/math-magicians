@@ -1,0 +1,53 @@
+/*
+    ==============================================
+                ****** RESET *****
+    ==============================================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/*
+    ==============================================
+                ****** Global *****
+    ==============================================
+*/
+
+.calculator {
+  border: 1px solid #000;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calculator-result {
+  background-color: grey;
+  text-align: end;
+  padding: 1rem 0.2rem;
+  color: #fff;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+}
+
+button {
+  padding: 1rem 2rem;
+  border: 1px solid rgba(195, 195, 195, 0.4);
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+.orange {
+  background-color: orange;
+  border: 1px solid rgba(212, 212, 212, 0.7);
+}

@@ -1,6 +1,7 @@
 /* eslint-disable max-classes-per-file, no-unused-vars, quotes, comma-dangle */
 
 import React from "react";
+import "./Calculator.css";
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -62,7 +63,7 @@ class Calculator extends React.Component {
           <button type="button" className="orange">
             +
           </button>
-          <button type="button" className="grey">
+          <button type="button" className="grey, zero">
             0
           </button>
           <button type="button" className="grey">
