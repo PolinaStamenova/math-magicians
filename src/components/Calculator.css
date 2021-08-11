@@ -1,0 +1,33 @@
+.calculator {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+}
+
+.calculator-result {
+  background-color: grey;
+  text-align: end;
+  padding: 1rem 0.2rem;
+  color: #fff;
+  font-size: 22px;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+}
+
+button {
+  padding: 1rem 1.6rem;
+  border: 1px solid rgba(195, 195, 195, 0.4);
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+.orange {
+  background-color: orange;
+  border: 1px solid rgba(212, 212, 212, 0.75);
+}
