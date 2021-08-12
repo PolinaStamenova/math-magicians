@@ -12,10 +12,6 @@
 > make simple calculations.
 > and read a random math-related quote.
 
-## Live Demo
-
-[LiveDemo](https://polinastamenova.github.io/math-magicians/)
-
 ## Built With
 
 - ReactJS
