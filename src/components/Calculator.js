@@ -1,8 +1,6 @@
-/* eslint-disable quotes */
-
-import React, { useState } from "react";
-import "./Calculator.css";
-import calculate from "../logic/calculator";
+import React, { useState } from 'react';
+import './Calculator.css';
+import calculate from '../logic/calculator';
 
 function Calculator() {
   const [state, setState] = useState({});
@@ -12,11 +10,11 @@ function Calculator() {
   };
 
   const { total, next, operation } = state;
-  const display = (total || "") + (operation || "") + (next || "");
+  const display = (total || '') + (operation || '') + (next || '');
 
   return (
     <div className="calculator">
-      <p className="calculator-result">{display || "0"}</p>
+      <p className="calculator-result">{display || '0'}</p>
       <div className="calculator-buttons">
         <button name="AC" type="button" onClick={handleClick} className="grey">
           AC
