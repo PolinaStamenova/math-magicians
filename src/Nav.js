@@ -8,7 +8,7 @@ export default function Nav() {
       <nav>
         <h1 className="title">Math Magicians</h1>
         <ul>
-          <Link to="/math-magicians">
+          <Link to="/">
             <li>Home</li>
           </Link>
           <Link to="/calculator">
