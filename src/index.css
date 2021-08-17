@@ -14,8 +14,7 @@ ul {
 }
 
 a {
-  text-decoration: none;
-  color: pink;
+  color: blue;
 }
 
 /*
@@ -23,7 +22,3 @@ a {
                 ****** Global *****
     ==============================================
 */
-
-body {
-  background-color: rgb(238, 137, 239);
-}
