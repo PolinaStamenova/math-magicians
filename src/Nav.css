@@ -1,0 +1,26 @@
+.title {
+  font-size: 36px;
+}
+
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav ul {
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  font-size: 22px;
+}
+
+.middle {
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+  padding: 0 0.8rem;
+}

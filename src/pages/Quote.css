@@ -1,0 +1,10 @@
+.quote {
+  margin-top: 15rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  text-align: center;
+  line-height: 56px;
+  font-style: italic;
+}

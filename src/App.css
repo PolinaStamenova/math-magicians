@@ -1,0 +1,12 @@
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav ul {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}

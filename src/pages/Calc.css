@@ -1,0 +1,14 @@
+.calc-holder {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+  margin-top: 3rem;
+}
+
+.calculator {
+  width: 500px;
+}
+
+.sub-title {
+  font-size: 26px;
+}
