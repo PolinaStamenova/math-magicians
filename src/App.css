@@ -1,0 +1,13 @@
+nav {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: grey;
+}
+
+nav ul {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
