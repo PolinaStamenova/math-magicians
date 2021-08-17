@@ -1,13 +1,22 @@
+.title {
+  font-size: 36px;
+  color: rgb(195, 25, 198);
+}
+
 nav {
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  background-color: grey;
+  background-color: rgba(215, 69, 186, 0.3);
 }
 
 nav ul {
-  width: 200px;
+  width: 260px;
   display: flex;
   justify-content: space-between;
+}
+
+nav li {
+  font-size: 22px;
 }

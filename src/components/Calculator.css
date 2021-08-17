@@ -1,9 +1,3 @@
-/* .calculator {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .calculator-result {
   background-color: grey;
   text-align: end;
@@ -27,6 +21,6 @@ button {
 }
 
 .orange {
-  background-color: #f2a33c;
+  background-color: #bc6efc;
   border: 1px solid rgba(212, 212, 212, 0.75);
 }

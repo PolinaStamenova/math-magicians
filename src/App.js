@@ -1,13 +1,13 @@
-/* eslint-disable react/prefer-stateless-function, quotes */
+/* eslint-disable react/prefer-stateless-function */
 
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./components/Calculator.css";
-import "./App.css";
-import Nav from "./Nav";
-import Home from "./pages/Home";
-import Calc from "./pages/Calc";
-import Quote from "./pages/Quote";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './components/Calculator.css';
+import './App.css';
+import Nav from './Nav';
+import Home from './pages/Home';
+import Calc from './pages/Calc';
+import Quote from './pages/Quote';
 
 class App extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class App extends React.Component {
         <Switch>
           <div>
             <Nav />
-            <Route path="/" exact component={Home} />
+            <Route exact path="/math-magicians" component={Home} />
             <Route path="/calculator" component={Calc} />
             <Route path="/quote" component={Quote} />
           </div>

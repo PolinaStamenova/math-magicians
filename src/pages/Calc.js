@@ -1,8 +1,6 @@
-/* eslint-disable react/prefer-stateless-function, quotes */
-
-import React from "react";
-import Calculator from "../components/Calculator";
-import "./Calc.css";
+import React from 'react';
+import Calculator from '../components/Calculator';
+import './Calc.css';
 
 function Calc() {
   return (

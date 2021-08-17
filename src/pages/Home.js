@@ -1,21 +1,40 @@
-/* eslint-disable react/prefer-stateless-function, quotes */
-
-import React from "react";
-import "./Home.css";
+import React from 'react';
+import './Home.css';
 
 export default function Home() {
   return (
     <div className="home-holder">
-      <h2>This is the HOME page</h2>
-      <p className="home-subtitle">
-        Note: Behind the scenes a renders anwith a real href, so people using
-        the keyboard for navigation or screen readers will still be able to use
-        this app.
+      <h2 className="home-title">Welcome to my page!</h2>
+      <p className="home-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis
+        deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium
+        modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Aperiam quis deserunt ut.
+        Expedita delectus, ipsam aperiam iure optio hic praesentium modi
+        repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita
+        delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam
+        ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam
+        aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore
+        ex illum nisi.
       </p>
-      <p className="home-third-title">
-        Note: Behind the scenes a renders anwith a real href, so people using
-        the keyboard for navigation or screen readers will still be able to use
-        this app.
+      <p className="home-second-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis
+        deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium
+        modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Aperiam quis deserunt ut.
+        Expedita delectus, ipsam aperiam iure optio hic praesentium modi
+        repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita
+        delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam
+        ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam
+        aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore
+        ex illum nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio
+        hic praesentium modi repellat in nam ut soluta dolore ex illum nisi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
     </div>
   );

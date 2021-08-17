@@ -3,10 +3,21 @@
   margin-top: 3rem;
 }
 
-.home-subtitle {
-  margin-top: 5rem;
+.home-title {
+  font-size: 26px;
+  color: rgb(195, 25, 198);
 }
 
-.home-third-title {
+.home-text {
+  margin-left: 3rem;
+  margin-top: 5rem;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.home-second-text {
+  margin-left: 3rem;
   margin-top: 2rem;
+  font-size: 20px;
+  color: aliceblue;
 }

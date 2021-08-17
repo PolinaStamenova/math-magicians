@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  background-color: grey;
+  background-color: rgba(132, 240, 251, 1);
 }
 
 nav ul {

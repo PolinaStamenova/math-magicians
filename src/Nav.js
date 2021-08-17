@@ -1,16 +1,14 @@
-/* eslint-disable  quotes */
-
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Nav.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Nav.css';
 
 export default function Nav() {
   return (
     <div>
       <nav>
-        <h1>Math Magicians</h1>
+        <h1 className="title">Math Magicians</h1>
         <ul>
-          <Link to="/">
+          <Link to="/math-magicians">
             <li>Home</li>
           </Link>
           <Link to="/calculator">
