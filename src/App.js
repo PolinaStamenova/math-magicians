@@ -2,12 +2,12 @@
 
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Calculator from "./components/Calculator";
 import "./components/Calculator.css";
+import "./App.css";
 import Nav from "./Nav";
 import Home from "./pages/Home";
-import "./App.css";
 import Calc from "./pages/Calc";
+import Quote from "./pages/Quote";
 
 class App extends React.Component {
   render() {
@@ -17,8 +17,8 @@ class App extends React.Component {
           <div>
             <Nav />
             <Route path="/" exact component={Home} />
-            <Route path="/calc" component={Calc} />
-            <Calculator />
+            <Route path="/calculator" component={Calc} />
+            <Route path="/quote" component={Quote} />
           </div>
         </Switch>
       </Router>
