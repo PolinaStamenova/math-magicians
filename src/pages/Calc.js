@@ -1,6 +1,6 @@
-import React from "react";
-import Calculator from "../components/Calculator";
-import "./Calc.css";
+import React from 'react';
+import Calculator from '../components/Calculator';
+import './Calc.css';
 
 const Calc = () => (
   <div className="calc-holder">
