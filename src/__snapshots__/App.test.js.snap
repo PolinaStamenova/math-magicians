@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect quote page to match working snapshot 1`] = `
+<div
+  computedMatch={
+    Object {
+      "isExact": true,
+      "params": Object {},
+      "path": "/",
+      "url": "/",
+    }
+  }
+  location={
+    Object {
+      "hash": "",
+      "pathname": "/",
+      "search": "",
+      "state": undefined,
+    }
+  }
+>
+  <div>
+    <nav>
+      <h1
+        className="title"
+      >
+        Math Magicians
+      </h1>
+      <ul>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <li
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            Home
+          </li>
+        </a>
+        <a
+          href="/calculator"
+          onClick={[Function]}
+        >
+          <li
+            className="middle"
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            Calculator
+          </li>
+        </a>
+        <a
+          href="/quote"
+          onClick={[Function]}
+        >
+          <li
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            Quote
+          </li>
+        </a>
+      </ul>
+    </nav>
+  </div>
+  <div
+    className="home-holder"
+  >
+    <h2
+      className="home-title"
+    >
+      Welcome to my page!
+    </h2>
+    <p
+      className="home-text"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi.
+    </p>
+    <p
+      className="home-second-text"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis deserunt ut. Expedita delectus, ipsam aperiam iure optio hic praesentium modi repellat in nam ut soluta dolore ex illum nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </div>
+</div>
+`;

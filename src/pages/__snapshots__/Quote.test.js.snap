@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect quote page to match working snapshot 1`] = `
+<p
+  className="quote"
+>
+  The essence of math is not to make simple things complicated, but to make complicated things simple. — Stan Gudder
+</p>
+`;
