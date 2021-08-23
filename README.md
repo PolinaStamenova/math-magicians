@@ -14,7 +14,7 @@
 
 ## Built With
 
-- ReactJS
+- ReactJS.
 
 ## Getting Started
 
