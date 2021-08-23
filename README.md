@@ -12,6 +12,11 @@
 > make simple calculations.
 > and read a random math-related quote.
 
+## Live Demo
+
+- Deploy with Heroku: [Click Here!](https://math-magician-polina.herokuapp.com/quote)
+- Deploy with Netlify: [Click Here!](https://vigorous-franklin-95627b.netlify.app/)
+
 ## Built With
 
 - ReactJS.
